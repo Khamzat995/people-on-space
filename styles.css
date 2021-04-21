@@ -1,9 +1,21 @@
+body {
+  font-family: Helvetica, sans-serif;
+  width: 500px;
+  margin: 10px auto;
+  background: #ADD8E6;
+}
+
 .container {
   width: 600px;
   margin: auto;
-
   font-size: 22px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 0 0 1em black;
+  height: 100%;
+  position: relative;
+  padding: 40px;
+  border-radius: 6px;
+  background:#FFE4B5;
 }
 
 .header {
@@ -11,18 +23,25 @@
 
   padding-bottom: 25px;
   margin-bottom: 25px;
+
 }
 
 table {
   width: 100%;
 
   border-collapse: collapse;
+  box-shadow: 0 0 0.2em black;
+  border-radius: 6px;
+  background:#FFA07A;
+
 }
+
+
 
 td, th {
   border: 1px solid lightgray;
-
   padding: 15px;
+
 }
 
 .error {
